@@ -1,5 +1,5 @@
 """
-Small System Monitor in C4D
+Parallelogram primitive
 
 Copyright (c) 2020 Nishiki
 
