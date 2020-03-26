@@ -78,7 +78,6 @@ class Parallelogram(c4d.plugins.ObjectData, ParallelogramHelper):
 
 
     def GetVirtualObjects(self, op, hierarchyhelp):
-        # propaties
         edge_a = op[c4d.PY_PARALLELOGRAMOBJECT_EDGE_A] if op[c4d.PY_PARALLELOGRAMOBJECT_EDGE_A] is not None else 200.0
         edge_b = op[c4d.PY_PARALLELOGRAMOBJECT_EDGE_B] if op[c4d.PY_PARALLELOGRAMOBJECT_EDGE_B] is not None else 200.0
         sub_a = op[c4d.PY_PARALLELOGRAMOBJECT_SUB_A] if op[c4d.PY_PARALLELOGRAMOBJECT_SUB_A] is not None else 10
